@@ -1027,12 +1027,12 @@ const githubData = [
         "gravatar_id": "",
         "url": "https://api.github.com/users/stevebrownlee",
         "avatar_url": "https://avatars.githubusercontent.com/u/218592?"
-      },
+                },
       "repo": {
         "id": 46649815,
         "name": "stevebrownlee/vps-setup",
         "url": "https://api.github.com/repos/stevebrownlee/vps-setup"
-      },
+                },
       "payload": {
         "push_id": 2753553675,
         "size": 1,
@@ -4406,3 +4406,5 @@ const githubData = [
       }
     }
   ]
+
+  console.log(githubData[6].payload.commits[0].message);
